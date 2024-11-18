@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        input{
+            display: block;
+        }
+        .container{
+            width: 80%;
+            margin: 25px auto;
+        }
+        #subContainer{
+            margin: 15px 0;
+        }
+        button{
+            background-color: blue;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+        button:active{
+            scale: 0.9;
+        }
+        .prime{
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <label>Enter 1 for Fibonacci Series, 2 for Prime numbers and 3 to get factiorial of n numbers.</label>
+        <input type="number" id="numEntered">
+        <div id="subContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
